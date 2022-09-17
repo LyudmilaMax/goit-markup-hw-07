@@ -200,11 +200,10 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-
-.modal-close-icon {
+.modal-close-btn .modal-close-icon {
   fill: var(--icon-color-btn);
 }
-.modal-close-icon:hover, .modal-close-icon:focus {
+.modal-close-btn .modal-close-icon:hover, .modal-close-btn .modal-close-icon:focus {
   fill: var(--accent-color-icon);
 }
 
@@ -585,14 +584,12 @@ body {
 .container-benefits {
   display: flex;
 }
-
-.benefits-menu {
+.container-benefits .benefits-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-
-.benefits-menu__item {
+.container-benefits .benefits-menu__item {
   flex-basis: calc((100% - 90px) / 4);
 }
 

@@ -46,13 +46,14 @@
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-}
 
-.modal-close-icon {
-  fill: var(--icon-color-btn);
+  .modal-close-icon {
+    fill: var(--icon-color-btn);
 
-  &:hover,
-  &:focus {
-    fill: var(--accent-color-icon);
+    &:hover,
+    &:focus {
+      fill: var(--accent-color-icon);
+    }
   }
+
 }

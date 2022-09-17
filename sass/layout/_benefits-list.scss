@@ -1,14 +1,16 @@
 .container-benefits {
     display: flex;
-}
-.benefits-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
 
-.benefits-menu__item {
-    flex-basis: calc((100% - 90px) / 4);
+    .benefits-menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .benefits-menu__item {
+        flex-basis: calc((100% - 90px) / 4);
+    }
+
 }
 
 .benefits-menu__icon {

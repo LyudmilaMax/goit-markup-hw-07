@@ -13,6 +13,7 @@
 
   .menu {
     display: flex;
+    
   }
 }
 .menu__item:not(:last-child) {
@@ -35,6 +36,7 @@
   &:focus {
     color: var(--accent-color);
   }
+  
 }
 
 .menu__link_current::after {
