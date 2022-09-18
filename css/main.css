@@ -519,6 +519,10 @@ body {
   color: var(--accent-color);
 }
 
+.menu__link_current {
+  color: var(--accent-color);
+}
+
 .menu__link_current::after {
   content: "";
   position: absolute;
