@@ -41,19 +41,31 @@
 
 .menu__link_current {
   color: var(--accent-color);
+  
+  &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      bottom: -1px;
+      left: 0;
+      background-color: var(--accent-color);
+      border-radius: 2px;
+      transition: color var(--transition-color), backgraund var(--transition-bgc);
+    }
 }
 
-.menu__link_current::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: -1px;
-  left: 0;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-  transition: color var(--transition-color), backgraund var(--transition-bgc);
-}
+// .menu__link_current::after {
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   height: 4px;
+//   bottom: -1px;
+//   left: 0;
+//   background-color: var(--accent-color);
+//   border-radius: 2px;
+//   transition: color var(--transition-color), backgraund var(--transition-bgc);
+// }
 
 .contacts {
   display: flex;
